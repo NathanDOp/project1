@@ -1,7 +1,6 @@
 ﻿# The script of the game goes in this file.
-
+__author__="Nathan D'Agostino"
 # Creator: Nathan D'Agostino
-#__author__Nathan D'Agostino
 # This program is a game in a similar format to Oregon Trail, where you have to manage a certain about of money while trying
 # to keep your mentality in check and make it through the 20 day trip.
 # Citation: Most of the code was written in Renpy, rather than Pycharm or Visual Studio, this was reccommended by Prof. Vanselow.
@@ -15,6 +14,7 @@ define sanity = 100
 define guilt = 0
 default Phone = True
 def time_skip(elapse):
+    """Fuction works as a time lapse whenever the user choses an option for how much time they wish to wait."""
     print(elapse + " Hours have passed.")
 #This is placed in to be used for time skips and showing how much time as passed.
 
